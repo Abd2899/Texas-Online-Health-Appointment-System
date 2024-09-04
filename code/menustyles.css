@@ -1,0 +1,62 @@
+/* style for the Menu page*/
+h1{
+    text-align: center;
+    color: rgba(217, 79, 20, 0.989);
+    padding-right: -20px;
+}
+#logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    z-index: 1;
+  }
+   
+  /* style for the links in the navbar */
+  nav a {
+    float: left;
+    color: rgb(230, 110, 13);
+    text-align: center;
+    padding-left: 150px;
+    text-decoration: none;
+    margin: 80px 80px;
+  }
+  
+ body {
+    background-color: rgb(125, 196, 232);
+ 
+  }
+  
+
+  /* style for the active link in the navbar */
+  nav a.active {
+    background-color: rgb(110, 158, 113);
+  }
+  
+  /* style for the hover effect on the links in the navbar */
+  nav a:hover {
+    color: rgb(67, 179, 168);
+  }
+  #test{
+    display:block;
+    color: aqua;
+    padding:120px,120px;
+    float:right;
+    background-color:rgb(240, 239, 237);
+    text-align: cleft;
+    
+
+  }
+  #dct{
+    display:block;
+    color: rgb(158, 167, 167);
+    padding: 120px,120px; 
+    float:left;
+    background-color:rgb(51, 50, 47);
+    text-align: left;
+    
+
+  }
+   

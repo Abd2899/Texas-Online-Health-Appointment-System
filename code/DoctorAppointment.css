@@ -1,0 +1,116 @@
+
+
+   
+  /* style for the links in the navbar */
+  nav a {
+    float: left;
+    color: rgb(78, 204, 218);
+    text-align: center;
+    padding-left: 150px;
+    text-decoration: none;
+    margin: 80px 80px;
+  }
+  
+ body {
+    background-color: rgb(219, 235, 244); 
+    
+    
+ 
+  }
+  
+  /* style for the active link in the navbar */
+  nav a.active {
+    background-color: rgb(110, 158, 113);
+  }
+  
+  /* style for the hover effect on the links in the navbar */
+  nav a:hover {
+    color: rgb(67, 179, 168);
+  }
+  #Check{
+    display:block;
+    color: rgb(152, 229, 163);
+    padding:120px,120px;
+    float:right;
+    background-color:rgb(99, 96, 116);
+    text-align: cleft;
+    font-weight: bolder;
+    margin-top: 120px;
+    
+
+  }
+  #Addavailability{
+    display:block;
+    color: rgb(122, 133, 231);
+    padding: 120px,120px; 
+    float:left;
+    background-color:rgb(87, 81, 95);
+    text-align: left;
+    font-weight: bolder;
+    margin-top: 120px;
+    
+
+  }
+  #Availability {
+    float: left;
+    color: rgb(78, 204, 218);
+    text-align: center;
+    padding: 70px 150px;
+    margin-left: 400px;
+    text-decoration: none;
+        
+  }
+  #Availability{
+    display:block;
+    color: rgb(122, 133, 231);
+    padding: 130px,130px;
+    margin-top: 50px; 
+    float:left;
+    background-color:rgb(87, 81, 95);
+    text-align: center;
+    font-weight: bolder;
+
+  }
+ 
+  body {
+   
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    display: block;
+    color: rgb(42, 113, 82);
+    font-weight: bold;
+    text-decoration: none;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(232, 76, 185);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-decoration: none;
+   
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(221, 221, 221);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(4, 170, 109);
+    color: white;
+  }
+  h1, h2{
+    text-align: center;
+  }
+
+   
+		

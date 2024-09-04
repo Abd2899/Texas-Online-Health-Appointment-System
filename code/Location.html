@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doctor Search</title>
+	<link rel = "stylesheet" href = 'Location.css'>
+</head>
+<body>
+	<h1>Our locations</h1>
+	<h1>Select Date and Location to find doctors:</h1>
+	<div class="date" >
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(function(){	
+					var dtToday = new Date();
+					var month = dtToday.getMonth() + 1;
+					var day = dtToday.getDate();
+					var year = dtToday.getFullYear();
+					if(month < 10)
+					   month = '0' + month.toString();
+					if(day< 10)
+						day = '0' + day.toString();
+		
+					var maxDate = year + '-' + month + '-' + day;
+		
+					$('#dateControl').attr('min', maxDate);
+				});
+			})
+			</script>
+			<label for="start">Choose date:</label>
+			<input type="date" id="dateControl"/>
+	<ul class="locations">
+		<li ><a href="doctors_denton.html">Denton</a></li>
+		<li><a href="doctors_Dallas.html">Dallas</a></li>
+		<li><a href="doctors_Frisco.html">Frisco</a></li>
+		<li><a href="doctors_Irving.html">Irving</a></li>
+	</ul>
+	</body>
+</html>

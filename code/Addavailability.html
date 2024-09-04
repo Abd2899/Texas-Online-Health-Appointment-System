@@ -1,0 +1,58 @@
+<html>
+<head><title>Check Appointment Page</title>
+<style>
+    body{ background-color: rgba(32, 228, 143, 0.703);
+            text-align: center;
+
+    }
+</style>
+</head>
+<body>
+    <form id="appointment-form" action="Thankyou1.html" method="POST">
+<div id="set-availability-calendar">
+    <h2>Select the date and time you are available:</h2>
+</div>
+<div class="date">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(function(){	
+                var dtToday = new Date();
+                var month = dtToday.getMonth() + 1;
+                var day = dtToday.getDate();
+                var year = dtToday.getFullYear();
+                if(month < 10)
+                   month = '0' + month.toString();
+                if(day< 10)
+                    day = '0' + day.toString();
+    
+                var maxDate = year + '-' + month + '-' + day;
+    
+                $('#dateControl').attr('min', maxDate);
+            });
+        })
+        </script>
+        <label for="start">Set Available Date:</label>
+
+        <input type="date" id="dateControl" /><br><br/>
+
+<label for="appointment-time">*Set Login Time:</label>
+<input type="time" id="date-input" name="date-input" required><br/><br/>
+<label for="appointment-time">*Set Logout Time:</label>
+<input type="time" id="date-input" name="date-input" required><br/><br/>
+<label for "Location">*Choose Location:</label>
+<select id="Location" name="Location" required>
+    <option value="Choose Location">Choose Location</option>
+    <option value="Location1">Denton</option>
+    <option value="Location2">Dallas</option>
+    <option value="Location3">Frisco</option>
+    <option value="Location4">Irving</option>
+</select>
+<br/>
+<br/>
+<input type="submit" id="submit-btn" value="Submit"><br>
+
+	</form>
+
+</body>
+</html>

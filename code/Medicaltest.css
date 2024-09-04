@@ -1,0 +1,28 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+}
+img{
+    position:absolute;
+	top: 5px;
+	left: 5px;
+
+}
+label{
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    text-align: start;
+    
+    
+}
+#submit-btn{
+    margin-top: 30px;
+    font-weight: bold;
+
+}

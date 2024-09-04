@@ -1,0 +1,47 @@
+		
+		
+		/* style for the Our Doctors page*/
+		body {
+			font-family: Arial, sans-serif;
+			background-color: rgb(222, 227, 219);
+			color: rgb(139, 213, 169);
+			text-align: center;
+		}
+		h1 {
+			margin-top: 50px;
+			font-size: 36px;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin-top: 50px;
+		}
+		.doctor {
+			background-color: rgb(253, 253, 246);
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			border-radius: 10px;
+			margin: 15px;
+			padding: 40px;
+			max-width: 200px;
+			text-align: center;
+			
+		}
+		.doctor:hover {
+			transform: translateY(-5px);
+		}
+		
+		.doctor h2 {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		.doctor h3 {
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+		.doctor p {
+			font-size: 16px;
+			margin-bottom: 10px;
+		}
+	
